@@ -1,9 +1,4 @@
 /*home*/
-body{
-    background-image: url(https://lv2-cdn.azureedge.net/twice/30646b00045a47f4bf2fda67b3482bd1-10-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8E%E1%85%A6_%E1%84%8F%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A6%E1%86%B83_%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%E1%84%87%E1%85%A9%E1%86%AB_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .navbar {
 background-color: rgb(24, 24, 24);
 padding: 10px;
@@ -30,59 +25,23 @@ body{
     background-image: url(https://lv2-cdn.azureedge.net/twice/30646b00045a47f4bf2fda67b3482bd1-10-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8E%E1%85%A6_%E1%84%8F%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A6%E1%86%B83_%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%E1%84%87%E1%85%A9%E1%86%AB_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "Nunito", serif;
 }
-.navbar {
-background-color: rgb(24, 24, 24);
-padding: 10px;
+.login-form h2{
+    color: beige;
 }
-.navbar-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.login-form {
+    width: 1300px;
+    height: 500px;
     display: flex;
-}
-.nav-item {
-    margin-right: 10px;
-}
-.nav-item a {
-    text-decoration: none;
-    color:rgb(219, 219, 219);
-    padding: 5px 10px;
-}
-.nav-item a:hover {
-    background-color: rgb(48, 48, 48);
-}
-/*sobre*/
-.navbar {
-    background-color: rgb(24, 24, 24);
-    padding: 10px;
-    }
-    .navbar-nav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-    .nav-item {
-        margin-right: 10px;
-    }
-    .nav-item a {
-        text-decoration: none;
-        color:rgb(219, 219, 219);
-        padding: 5px 10px;
-    }
-    .nav-item a:hover {
-        background-color: rgb(48, 48, 48);
-    }
-/*contato*/
-.nav-item {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/*sobre*/
+
+/*contato*/
 label{
     display: block;
     margin-bottom: 10px;
@@ -112,33 +71,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #3e8d41;
 }
-.navbar {
-background-color: rgb(24, 24, 24);
-padding: 10px;
-}
-.navbar-nav {
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: flex;
-}
-.nav-item {
-margin-right: 10px;
-}
-.nav-item a {
-text-decoration: none;
-color:rgb(219, 219, 219);
-padding: 5px 10px;
-}
-.nav-item a:hover {
-background-color: rgb(48, 48, 48);
-}
-/* login*/
-.nav-item {
-   color:rgb(219, 219, 219);
-   font-family: "Nunito", serif;
-}
-
 .video-background {
     position: fixed;
     top: 0;
@@ -152,5 +84,19 @@ background-color: rgb(48, 48, 48);
     min-width: 100%;
     min-width: 100%;
 }
-
-   
+.form{
+    width: 1300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homesite{
+    width: 1300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
