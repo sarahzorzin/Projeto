@@ -5,46 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito"/>
 
-<style>
-.video-background {
-     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-    }
-
-.video-background video {
-    min-width: 100%;
-    min-width: 100%;
-}
-</style>
 </head>
-<style>
-.navbar {
-background-color: rgb(24, 24, 24);
-padding: 10px;
-}
-.navbar-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.nav-item {
-    margin-right: 10px;
-}
-.nav-item a {
-    text-decoration: none;
-    color:rgb(219, 219, 219);
-    padding: 5px 10px;
-}
-.nav-item a:hover {
-    background-color: rgb(48, 48, 48);
-}   
-</style>
 <body>
      <nav class="navbar">
         <ul class="navbar-nav">
@@ -55,19 +19,21 @@ padding: 10px;
         <li class="nav-item"><a href="login.html">Login</a></li>
         </ul>
     </nav>
-    <div class="video-background">
-        <video width="1920" height="1080">
-            <source src="TWICE _SET ME FREE_ M-V.mp4" type="video/mp4">
-        </video>
-    </div>
 
     <div class="login-form">
         <h2>Formulário de Login</h2>
         <form>
             <input type="text" placeholder="Usuário">
             <input type="password" placeholder="Senha">
-            <input type="submit">Entrar</button>
+            <button type="submit">Entrar</button>
         </form>
     </div>
+
+    <div class="video-background">
+        <video controls autoplay loop muted>
+            <source src="TWICE _SET ME FREE_ M-V.mp4" type="video/mp4">
+        </video>
+    </div>
+
 </body>
 </html>
